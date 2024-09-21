@@ -1,0 +1,139 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.hero-section {
+    background-image: url('drone-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: #ff6600;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.features-section, .specs-section, .reviews-section, .faq-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.features-section h2, .specs-section h2, .reviews-section h2, .faq-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature-grid, .specs-grid, .reviews-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item, .specs-item, .review-item {
+    width: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.feature-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.feature-item h3, .specs-item h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.faq-item {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
